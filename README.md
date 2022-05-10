@@ -9,7 +9,8 @@ More information about the data description in BigQuery Public Dataset: Iowa Liq
 
 ## Note
 The data were processed by using PostgreSQL since BigQuery Free Edition has limitations <br>
-This solution used simple and fast solutions
+The data used are from 2018 - March 2022 <br>
+This solution used simple and fast solutions <br>
 
 ## General problems
 store name has different store number, address, store location, zip code, city, county name and number <br>
