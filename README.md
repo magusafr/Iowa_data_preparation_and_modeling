@@ -6,9 +6,9 @@ Data preparation and modeling Iowa liquor public dataset - Star Schema from The 
 ## Solutions
 Remove store location variable (highest missing values) <br>
 Store name should have <br>
-<li>1 store number, </li>
-<li>1 address, </li>
-<li>1 city, </li>
+<li>1 store number </li>
+<li>1 address </li>
+<li>1 city </li>
 <li>1 zip code </li>
 <li>1 county </li>
 <li>1 county number </li> <br>
