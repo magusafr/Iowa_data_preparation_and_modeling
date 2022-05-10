@@ -11,11 +11,11 @@ Store name should have <br>
 <li>1 city, </li>
 <li>1 zip code </li>
 <li>1 county </li>
-<li>1 county number </li>
+<li>1 county number </li> <br>
 Item description should have <br>
 <li>1 item number </li>
 <li>1 category number </li>
-<li>1 category name </li>
+<li>1 category name </li> <br>
 Vendor name should have 1 vendor number <br>
 
 ## Illustration
