@@ -11,6 +11,13 @@ More information about the data description in BigQuery Public Dataset: Iowa Liq
 The data were processed by using PostgreSQL since BigQuery Free Edition has limitations <br>
 This solution used simple and fast solutions
 
+## General problems
+store name has different store number, address, store location, zip code, city, county name and number <br>
+vendor name has different vendor number <br>
+item description has different item number <br>
+
+more information in : https://public.tableau.com/app/profile/m.agus.afrianto/viz/Iowa_public_dataset_cleaning/Iowa?publish=yes <br>
+
 ## Solutions
 Remove store location variable (highest missing values) <br> <br>
 Store name should have <br>
