@@ -1,0 +1,24 @@
+-- find store name that zero or more than 1 store name, store location, address, city, zip_code, county name and number
+SELECT 
+  store_name,
+  COUNT(DISTINCT(store_number)) AS total_store_number,
+  COUNT(DISTINCT(address)) AS total_address,
+  COUNT(DISTINCT(store_location)) AS total_location,
+  COUNT(DISTINCT(county)) AS total_county,
+  COUNT(DISTINCT(county_number)) AS total_county_number,
+  COUNT(DISTINCT(zip_code)) AS total_zip_code,
+  COUNT(DISTINCT(city)) AS total_city
+FROM 
+	iowa_drink_sales
+GROUP BY 
+	store_name
+HAVING
+  COUNT(DISTINCT(store_number)) != 1 OR
+  COUNT(DISTINCT(address)) != 1 OR
+  COUNT(DISTINCT(store_location)) != 1 OR
+  COUNT(DISTINCT(county)) != 1 OR
+  COUNT(DISTINCT(county_number)) != 1 OR
+  COUNT(DISTINCT(zip_code)) != 1 OR
+  COUNT(DISTINCT(city)) != 1 
+ORDER BY
+	store_name;
