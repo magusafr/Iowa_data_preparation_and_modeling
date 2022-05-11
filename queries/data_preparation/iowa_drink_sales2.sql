@@ -1,3 +1,8 @@
+/* these queries after create table consist of : */
+/* 1. iowa_drink_sales1 (dataset with no missing values) */
+/* 2. location_list (dataset that consists of list of stores name that only have 1 store_number, 1 address, 1 city, 1 zip_code, 1 county name and number) */
+/* 3. iowa_drink_sales_ (dataset with no missing values and stores that only have 1 store_number, 1 address, 1 city, 1 zip_code, 1 county name and number) */
+
 CREATE TABLE IF NOT EXISTS iowa_drink_sales2(
     invoice_and_item_number TEXT,
 	date date,
